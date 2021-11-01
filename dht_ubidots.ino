@@ -5,9 +5,9 @@
 #define DHTTYPE DHT11 // mendefinisikan tipe dht yang kita gunakan
 
 
-char auth[] = "BBFF-7RcncHUTkWWpAelPbKUmZSQ1kDLkV6"; 
-char ssid[] = "namahostpotmu";
-char pass[] = "passwordhostpotmu";
+char auth[] = "YourAuthToken"; 
+char ssid[] = "BMW";
+char pass[] = "S85B50";
 
 DHT dht(DHTPIN,DHTTYPE);
 Ubidots client(auth); // setting token client di ubidots 
